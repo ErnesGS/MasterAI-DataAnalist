@@ -28,7 +28,7 @@
 - **Fuentes candidatas:** [OpenStreetMap](https://www.openstreetmap.org/), datasets de semáforos peatonales, imágenes sintéticas, propias. *(Hipótesis: no hay dataset público confirmado para el estado en tiempo real de todos los semáforos.)*
 - **Restricciones:** Mayoría hipótesis. Privacidad (procesamiento en movil), imagen, seguridad crítica (falsos negativos peligrosos).
 
-### Primera versión o MVP
+### MVP
 - **Funciones mínimas:** Detección de bordillos y cambios de nivel + alerta.
 - **Qué mostraríamos funcionando:** Demo con vídeo simulando el acercamiento a un bordillo.
 - **Qué dejaríamos fuera por ahora:** Integración completa, sensores de profundidad y avisos más complejos (dificultad elevada, posible descarte).
@@ -59,7 +59,7 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 - **Fuentes candidatas:** Vuelos propios de prueba *(hipótesis)*, datasets de detección de personas en vistas aéreas (ej. [VisDrone](https://github.com/VisDrone/VisDrone-Dataset), [CrowdHuman](https://www.crowdhuman.org/)) *(hipótesis, a consultar)*.
 - **Restricciones:** Solo confirmado con pruebas propias. Normativa de drones (espacio aéreo, autorizaciones), privacidad (personas identificables), permisos en zonas públicas.
 
-### Primera versión o MVP
+### MVP
 - **Funciones mínimas:** Conteo aproximado por zona con imagen estática (o vídeo corto), mostrando estimación numérica con margen de error.
 - **Qué mostraríamos funcionando:** Captura simulada o real en zona controlada.
 - **Qué dejaríamos fuera por ahora:** Seguimiento en tiempo real, análisis predictivo, integración con sistemas de control de acceso.
@@ -89,7 +89,7 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 - **Fuentes candidatas:** Portales de datos abiertos de ayuntamientos (tráfico), datos de eventos municipales. *(Hipótesis, varían según ciudad.)*
 - **Restricciones:** Mayoritariamente hipótesis (acceso a datos en tiempo real frecuentemente restringido). Sensibilidad (infraestructura), licencias de datos, no modificar semáforos directamente sin integración autorizada.
 
-### Primera versión o MVP
+### MVP
 - **Funciones mínimas:** Análisis estático de histórico (una intersección + un tipo de evento) mostrando correlación hora-evento/congestión y propuesta sencilla de ajuste.
 - **Qué mostraríamos funcionando:** Dashboard con heatmap por hora y recomendación textual (simulada con datos abiertos limitados).
 - **Qué dejaríamos fuera por ahora:** Control en tiempo real de semáforos, predicción compleja multi-intersección, integración con agentes de tráfico.
@@ -119,7 +119,7 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 - **Fuentes candidatas:** Prendas propias vectorizadas para demo, modelos de pose open source: [MediaPipe](https://developers.google.com/mediapipe). *(Acceso confirmado a herramientas OSS; catálogo, prendas, licencias: hipótesis.)*
 - **Restricciones:** Privacidad (vídeo en tiempo real), derechos de catálogo, rendimiento en hardware modesto.
 
-### Primera versión o MVP
+### MVP
 - **Funciones mínimas:** Superposición estática de prenda 2D sobre silueta con tracking de pose básico (3-4 poses) en tiempo real.
 - **Qué mostraríamos funcionando:** Demo con 1 prenda vectorizada, seguimiento básico al moverse levemente, render sobre persona.
 - **Qué dejaríamos fuera por ahora:** Ajuste fiel a medidas exactas, drapeado realista, multi-prenda, integración e-commerce completa.
