@@ -171,4 +171,4 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 | Aforo con dron | Media | Medio | Media | Normativa drones y privacidad |
 | Optimización tráfico | Alta | Media-Alta (analítico) | Dificil (datos restringidos) | Acceso a datos y autorización |
 | Probador virtual (*FitMirror*) | Alta | Media-Alta (técnico) | Facil | Realismo |
-| **MiInflación** | **Alta** | **Alta** | **Alta (INE)** | **Representatividad del IPC** |
+| MiInflación | Alta | Alta | Facil | Representatividad del IPC |
