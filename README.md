@@ -172,3 +172,39 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 | Optimización tráfico | Alta | Media-Alta (analítico) | Dificil (datos restringidos) | Acceso a datos y autorización |
 | Probador virtual (*FitMirror*) | Alta | Media-Alta (técnico) | Facil | Realismo |
 | **MiInflación** | Alta | Alta | Facil | Representatividad del IPC |
+
+## 6) Detección y predicción temprana de incendios forestales
+
+### Título y descripción
+
+- **Título provisional:** Detección y predicción temprana de incendios forestales.
+- **Descripción:** Sistema que permite proteger y preservar los entornos forestales para detectar incendios utilizando Inteligencia Artificial. Analizando los datos forestales, se pretende prevenir incendios y en caso de producirse alguno, detectarlo de manera temprana, para contribuir de una manera eficiente en la gestión y sostenibilidad de los bosques.
+
+### Problema y usuario
+
+- **Necesidad concreta:** Disminuir el riesgo de incendio y en caso de producirse, evitar que sea de grandes dimensiones, de manera que se protejan los entornos forestales.
+- **Usuario objetivo:** Organizaciones responsables de la protección, vigilancia y gestión de los entornos forestales.
+- **Resolución actual:** Actualmente, la protección y vigilancia de los bosques depende de inspecciones presenciales, detecciones de incendios limitadas y de la intervención del ser humano. Esto dificulta la dificulta detectar con rapidez incendios forestales o cambios ambientales.
+
+### Uso y valor
+
+- **Situación de uso:** Desde satélite o vigilancia aérea, se pretende monitorear el terreno forestal, detectando las zonas en las que hay alta probabilidad de incendio o aquellas zonas en las que el incendio ya se ha producido.
+- **Lo que recibe:** Se recibe un aviso de incendio o probabilidad de incendio para vigilancia humana.
+- **Cómo le ayuda:** Permite detectar zonas con alto riesgo de incendio o incendios ya producidos para que se vigilen dichas zonas.
+
+### Datos
+
+- **Necesarios:** Imágenes aéreas desde satélite de incendios y series históricas de humedad, viento, temperatura, etc...
+- **Fuentes candidatas:** [NASA FIRMS – Detección de incendios](https://firms.modaps.eosdis.nasa.gov/content/active_fire/?utm_source=chatgpt.com), [AEMET OpenData – Meteorología](https://www.aemet.es/es/datos_abiertos/AEMET_OpenData?utm_source=chatgpt.com), [Copernicus EFFIS – Riesgo de incendios](https://forest-fire.emergency.copernicus.eu/applications/data-and-services?utm_source=chatgpt.com), [Copernicus Sentinel-2 – Imágenes satelitales](https://dataspace.copernicus.eu/?utm_source=chatgpt.com), [MITECO EGIF – Historial de incendios en España](https://servicio.mapa.gob.es/incendios/Search/Publico?utm_source=chatgpt.com)
+- **Restricciones:**  Algunos datos están desactualizados, dificultad para integrar las bases de datos, falta de información, algunas zonas forestales pueden no disponer de toda la información.
+
+### MVP
+
+- **Funciones mínimas:** Detectar un incendio en una imagen dada o detectar la probabilidad de incendio en una zona forestal.
+- **Qué mostraríamos funcionando:** Aplicación web sencilla en la que se detecte el incendio o la probabilidad de incendio de una zona.
+- **Qué dejaríamos fuera por ahora:** Pruebas en tiempo real en vídeo.
+
+### Viabilidad y dudas
+
+- **Principal dificultad o incertidumbre:** La calidad de los datos así como la información extra para detectar la probabilidad de incendio
+- **Qué necesitaría comprobar:** Calidad suficiente de los datos.
