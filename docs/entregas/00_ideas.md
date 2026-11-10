@@ -164,15 +164,6 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 - **Principal dificultad o incertidumbre:** Correspondencia entre las categorías introducidas por el usuario y las publicadas por el INE, así como la correcta interpretación de una inflación personalizada estimada.
 - **Qué necesitaría comprobar:** Disponibilidad y compatibilidad de las series históricas del IPC, cambios de base y clasificación, correspondencia entre categorías y facilidad de uso del formulario. Validar los cálculos con ejemplos reproducibles y comprobar si los usuarios encuentran útil el resultado.
 
-## Comparativa rápida
-| Idea | Claridad problema | Facilidad MVP | Acceso datos | Riesgo principal |
-|---|---|---|---|---|
-| Gafas adaptativas IA | Alta (seguridad) | Dificil | Media (crítico, fiabilidad) | Seguridad y fiabilidad |
-| Aforo con dron | Media | Medio | Media | Normativa drones y privacidad |
-| Optimización tráfico | Alta | Media-Alta (analítico) | Dificil (datos restringidos) | Acceso a datos y autorización |
-| Probador virtual (*FitMirror*) | Alta | Media-Alta (técnico) | Facil | Realismo |
-| MiInflación | Alta | Alta | Facil | Representatividad del IPC |
-
 ## 6) Detección y predicción temprana de incendios forestales
 
 ### Título y descripción
@@ -208,3 +199,13 @@ Despliega el dron brevemente y obtiene una estimación de personas por zona.
 
 - **Principal dificultad o incertidumbre:** La calidad de los datos así como la información extra para detectar la probabilidad de incendio
 - **Qué necesitaría comprobar:** Calidad suficiente de los datos.
+
+## Comparativa rápida
+| Idea | Claridad problema | Facilidad MVP | Acceso datos | Riesgo principal |
+|---|---|---|---|---|
+| Gafas adaptativas IA | Alta (seguridad) | Dificil | Media (crítico, fiabilidad) | Seguridad y fiabilidad |
+| Aforo con dron | Media | Medio | Media | Normativa drones y privacidad |
+| Optimización tráfico | Alta | Media-Alta (analítico) | Dificil (datos restringidos) | Acceso a datos y autorización |
+| Probador virtual (*FitMirror*) | Alta | Media-Alta (técnico) | Facil | Realismo |
+| MiInflación | Alta | Alta | Facil | Representatividad del IPC |
+| Incendios forestales | Alta (seguridad) | Media | Dificil | Acceso a datos y autorización |
